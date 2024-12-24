@@ -63,8 +63,8 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <div class="site-heading">
-                            <h1>Clean Blog</h1>
-                            <span class="subheading">A Blog Theme by Start Bootstrap</span>
+                            <h1>ARBlog</h1>
+                            <span class="subheading">Simpel blog untuk berbagi informasi</span>
                         </div>
                     </div>
                 </div>
@@ -101,9 +101,20 @@
                                 </a>
                             </li>
                         </ul>
-                        <div class="small text-center text-muted fst-italic">Copyright &copy; Your Website 2023</div>
+                        <div class="small text-center text-muted fst-italic">Copyright &copy; ARBlog 2024</div>
                     </div>
-                </div>
+                </div>```php
+<!-- Logs -->
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Logs
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <li><a class="dropdown-item" href="{{ route('logs.index') }}">View Logs</a></li>
+        <li><a class="dropdown-item" href="{{ route('logs.clear') }}">Clear Logs</a></li>
+    </ul>
+</li>
+```
             </div>
         </footer>
         <!-- Bootstrap core JS-->
