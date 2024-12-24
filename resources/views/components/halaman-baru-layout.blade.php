@@ -1,0 +1,1 @@
+<h2>saya dari halaman baru</h2>
